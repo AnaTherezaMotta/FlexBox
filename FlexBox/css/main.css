@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.conteiner{
+    width: 100%;
+    padding: 16px;
+    margin: 12px;
+    border: 1px solid purple;
+    background-color: plum;
+    display: flex;
+    flex-flow: column wrap;  /*ajustar em colunas*/
+    flex-flow: row wrap; /*ajustar em linha*/
+    justify-content: center; /*alinhar item*/
+    justify-content: space-evenly; /*espaçamento igual entre os elementos*/
+    
+}
+
+.item{
+    width: 96px;
+    height: 96px;
+    padding: 12px;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+    margin-right: 12px;
+}
